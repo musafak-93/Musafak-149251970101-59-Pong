@@ -24,4 +24,9 @@ public class BallController : MonoBehaviour
         {
             transform.Translate(speed * Time.deltaTime);
         }*/
+
+    public void ActivatePUSpeedUp(float magnitude)
+    {
+        rig.velocity *= magnitude;
+    }
 }
